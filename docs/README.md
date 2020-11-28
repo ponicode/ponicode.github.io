@@ -27,29 +27,6 @@ Additional Documentation on how to install and link your extension to your Ponic
     - [Code][inst]
     - [Documentation](.)
 
-```javascript
-function isEmailValid(email){
-    return "blabla"
-}
-```
-
-```python
-def isEmailValid(email):
-    if "user" in email.get("meta"):
-        return "blabla"
-    else:
-        return 1e-5
-
-```
-
-```bash
-mkdir test
-```
-
-```typescript
-function isEmailValid(email: Email) -> String:
-    return "blabla"
-```
 
 
 [py-md]: ./python/README.md
