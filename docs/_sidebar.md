@@ -5,7 +5,7 @@
   * [Installation](ut_extension/installation.md)
   * [Get Started](ut_extension/get-started.md)
   * [How To?](ut_extension/how-to.md)
-  * [Run Ponicode on Your Own Project](ut_extension/setup.md)
+  * [Run Ponicode on Your Own Project](ut_extension/run-ponicode-on-your-project.md)
   * [Advanced Usage](ut_extension/advanced-concepts.md)
   * [Scope](ut_extension/limitations.md)
 * [Ponicode Unit Test Action](ut_action/)
