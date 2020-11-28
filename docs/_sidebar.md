@@ -12,8 +12,8 @@
   * [What is Ponicode Unit Test Action?](ut_action/what-is-ponicode-unit-test-action.md)
   * [Installation](ut_action/install.md)
   * [Configuration](ut_action/install.md)
-* [Ponicode DogString](dogstring_action/)
-  * [What is Ponicode Dogstring?](dogstring_action/what-is_ponicode-dogstring.md)
+* [Ponicode DogString Action](dogstring_action/)
+  * [What is Ponicode DogString Action?](dogstring_action/what-is_ponicode-dogstring.md)
   * [Get Started](dogstring_action/get-started.md)
   * [Installation](dogstring_action/installation.md)
   * [Configuration](dogstring_action/configuration.md)/
