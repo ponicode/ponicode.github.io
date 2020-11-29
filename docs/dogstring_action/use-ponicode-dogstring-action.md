@@ -20,18 +20,15 @@
 
 ![Settings](images/use_dogstring_4.png)
 
-1. Click on `New repository secret`
+8. Click on `New repository secret`
 
 ![Secrets](images/use_dogstring_5.png)
 
-8. Name it *`"PONICODE_TOKEN"`* and paste your token in the **Value**.
+9. Name it *`"PONICODE_TOKEN"`* and paste your token in the **Value**.
 
 ![Secrets](images/use_dogstring_6.png)
 
 
-9.  
-![Secrets](images/use_dogstring_7.png)
-10. Click on Add Secret
-
+10. Click on `Add Secret`
 Your Ponicode Token is now added to your repository's secrets!
-![Secrets](images/use_dogstring_5.png)
+
