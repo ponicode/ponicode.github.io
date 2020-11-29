@@ -29,3 +29,7 @@ conda install pytest pytest-mock
 ```
 
 ## TypeScript
+
+To use Ponicode on your **TypeScript** project, in addition to what is described on the **JavaScript** part above, you should have :
+- A `tsconfig.json` file,
+- Compile your project via `tsc -p .` or `tsc -w -p .` in watch mode.
