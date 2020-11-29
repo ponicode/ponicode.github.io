@@ -1,6 +1,6 @@
 # Get Started
 
-You can access the [https://api.ponicode.com/playground/](DogString Playground) at [https://api.ponicode.com/playground/]([DogString Playground](https://api.ponicode.com/playground/)).
+You can access the [DogString Playground](https://api.ponicode.com/playground/) at https://api.ponicode.com/playground/.
 
 ## How to Proceed
 
