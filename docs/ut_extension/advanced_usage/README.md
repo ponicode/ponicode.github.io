@@ -1,4 +1,4 @@
-# Adavnced Usage
+# Advanced Usage
 
 * [Test Location](ut_extension/advanced_usage/test-location.md)
 * [Test Description](ut_extension/advanced_usage/test-description.md)
