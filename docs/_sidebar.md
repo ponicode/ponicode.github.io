@@ -16,7 +16,7 @@
     * [History](ut_extension/advanced_usage/history.md)
   * [What Do We Support?](ut_extension/what-do-we-support.md)
 * [Ponicode DogString Action](dogstring_action/)
-  * [What is Ponicode DogString Action?](dogstring_action/what-is_ponicode-dogstring-action.md)
+  * [What is Ponicode DogString Action?](dogstring_action/what-is-ponicode-dogstring-action.md)
   * [Get Started](dogstring_action/get-started.md)
   * [Installation](dogstring_action/installation.md)
   * [Configuration](dogstring_action/configuration.md)
