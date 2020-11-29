@@ -18,5 +18,5 @@
   * [What is Ponicode DogString Action?](dogstring_action/what-is_ponicode-dogstring.md)
   * [Get Started](dogstring_action/get-started.md)
   * [Installation](dogstring_action/installation.md)
-  * [Configuration](dogstring_action/configuration.md)/
+  * [Configuration](dogstring_action/configuration.md)
   * [What Do We Support?](dogstring_action/what-do-we-support.md)

@@ -9,8 +9,9 @@ npm install -g ponicode@latest
 ```
 
 Additional packages might be needed to run test cases in the webview
-```
-
+```bash
+npm install jest
+npm install rewire
 ```
 
 ## Python
