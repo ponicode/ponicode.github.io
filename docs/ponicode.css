@@ -161,9 +161,10 @@ li input[type=checkbox] {
     justify-content: center;
 }
 
-.app-nav.no-badge {
-    /* margin-right: 25px */
-}
+
+/* .app-nav.no-badge {
+    margin-right: 25px 
+} */
 
 .app-nav p {
     margin: 0
@@ -404,7 +405,7 @@ main.hidden {
 
 body.sticky .sidebar,
 body.sticky .sidebar-toggle {
-    /* position: fixed */
+    position: fixed
 }
 
 .content {
