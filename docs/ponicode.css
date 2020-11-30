@@ -126,11 +126,7 @@ li input[type=checkbox] {
     align-items: center;
 }
 
-.sticky-navbar {
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 .app-nav {
     /* margin: 25px 60px 0 0;
@@ -183,7 +179,7 @@ li input[type=checkbox] {
 }
 
 .app-nav a {
-    color: inherit;
+    /* color: inherit; */
     font-size: 16px;
     text-decoration: none;
     transition: color .3s
@@ -375,9 +371,9 @@ main.hidden {
 }
 
 .sidebar-toggle {
-    display: none;
+    display: block;
     background-color: transparent;
-    background-color: hsla(0, 0%, 100%, .8);
+    /* background-color: hsla(0, 0%, 100%, .8); */
     border: 0;
     outline: none;
     padding: 10px;
@@ -579,7 +575,7 @@ body.close .content {
         transform: translateX(300px)
     }
     body.close .sidebar-toggle {
-        background-color: hsla(0, 0%, 100%, .8);
+        /* background-color: hsla(0, 0%, 100%, .8); */
         transition: background-color 1s;
         width: 284px;
         padding: 10px
@@ -1177,7 +1173,7 @@ a.nav-link-2:hover {
 
 .w-nav {
     position: relative;
-    background: #dddddd;
+    background: white;
     z-index: 1000;
 }
 
@@ -1325,4 +1321,186 @@ a.nav-link-2:hover {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+}
+
+.nav-link-2.dropdown {
+    padding: 0px;
+    opacity: 1;
+}
+
+.w-dropdown {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 900;
+}
+
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+    position: relative;
+    vertical-align: top;
+    text-decoration: none;
+    color: #222222;
+    padding: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+.w-dropdown-toggle {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 40px;
+}
+
+.w-dropdown-toggle:focus {
+    outline: 0;
+}
+
+.w-icon-dropdown-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-right: 20px;
+    width: 1em;
+    height: 1em;
+}
+
+.w-dropdown-list {
+    position: absolute;
+    background: #dddddd;
+    display: none;
+    min-width: 100%;
+}
+
+.w-dropdown-list.w--open {
+    display: block;
+}
+
+.w-dropdown-link {
+    padding: 10px 20px;
+    display: block;
+    color: #222222;
+}
+
+.w-dropdown-link.w--current {
+    color: #0082f3;
+}
+
+.w-dropdown-link:focus {
+    outline: 0;
+}
+
+.w-icon-arrow-down:before,
+.w-icon-dropdown-toggle:before {
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.15em;
+    position: relative;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.45em;
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.w-icon-dropdown-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-right: 20px;
+    width: 1em;
+    height: 1em;
+}
+
+.dropdown-list-3 {
+    border: 1px solid #000;
+}
+
+.dropdown-list-3 {
+    border-style: none;
+    background-color: #0f1245;
+}
+
+.nav-link-2.dropdown.w-dropdown:hover>.dropdown-list-3.w-dropdown-list {
+    display: block;
+}
+
+.w--current {
+    font-weight: 700;
+    color: var(--link-color)!important
+}
+
+a.w-dropdown-link:hover {
+    color: white;
+}
+.w-nav-menu {
+    position: relative;
+    float: right;
+  }
+
+.nav-bar {
+    /* position: absolute; */
+    /* left: 0px;
+    top: 0px;
+    right: 0px; */
+    z-index: 200;
+    /* display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; */
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px none #fff;
+    background-color: transparent;
+    color: #0f1245;
+}
+
+.sticky-navbar {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.w-nav-button {
+    background: #FCFCFC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    transition: 0.5s;
+  }
+  
+.w-nav-button:before {
+    top: -16px;
+}
+
+.w-nav-button:after {
+    top: 16px;
 }
