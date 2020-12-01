@@ -244,11 +244,12 @@ li input[type=checkbox] {
 
 .github-corner {
     border-bottom: 0;
-    position: fixed;
-    right: 0;
+    position: absolute;
+    left: 0;
     text-decoration: none;
-    top: 0;
-    z-index: 1
+    transform: rotate(270deg);
+    top: -3px;
+    z-index: 3000
 }
 
 .github-corner:hover .octo-arm {
@@ -261,6 +262,37 @@ li input[type=checkbox] {
     fill: var(--theme-color, var(--theme-color-default));
     height: 80px;
     width: 80px
+}
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+
+  @keyframes octocat-wave {
+
+    0%,
+    100% {
+      transform: rotate(0)
+    }
+
+    20%,
+    60% {
+      transform: rotate(-25deg)
+    }
+
+    40%,
+    80% {
+      transform: rotate(10deg)
+    }
+  }
+
+  @media (max-width:500px) {
+    .github-corner:hover .octo-arm {
+      animation: none
+    }
+
+    .github-corner .octo-arm {
+      animation: octocat-wave 560ms ease-in-out
+    }
 }
 
 main {
@@ -538,7 +570,9 @@ body.close .content {
 }
 
 @media screen and (max-width:768px) {
-    .github-corner,
+    .github-corner{
+        position: absolute
+    }
     .sidebar,
     .sidebar-toggle {
         position: fixed
