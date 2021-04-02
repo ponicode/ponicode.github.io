@@ -15,7 +15,3 @@
     * [Test Cases Running](ut_extension/advanced_usage/test-case-running.md)
     * [History](ut_extension/advanced_usage/history.md)
   * [What Do We Support?](ut_extension/what-do-we-support.md)
-* [<i class="fas fa-chevron-down" style="color:grey"></i> Ponicode DogString Action](dogstring_action/)
-  * [What is Ponicode DogString Action?](dogstring_action/what-is-ponicode-dogstring-action.md)
-  * [Try Ponicode DogString](dogstring_action/try-ponicode-dogstring.md)
-  * [Use Ponicode DogString Action](dogstring_action/use-ponicode-dogstring-action.md)

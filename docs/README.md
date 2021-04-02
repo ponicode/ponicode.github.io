@@ -1,39 +1,22 @@
-# Ponicode Demo Project
-
-This project is a starter kit to dive into Ponicode Unit Testing. Check the full documentation at https://www.ponicode.com/docs/get-started/installation.
-
-## Installation
-Create your account at **https://app.ponicode.com**
-
-Install our extension for free in the **VSCode Marketplace**. 
-
-Additional Documentation on how to install and link your extension to your Ponicode is available [**HERE**](TODO:DOCLINK)
+# Ponicode Documentation
 
 ## Table of Content
-- JavaScript Unit Testing
-    - [README][js-md]
-    - [Code][js]
-    - [Documentation](.)
-- TypeScript Unit Testing
-    - [README][ts-md]
-    - [Code][ts]
-    - [Documentation](.)
-- Python Unit Testing
-    - [README][py-md]
-    - [Code][py]
-    - [Documentation](.)
-- Instrumentation
-    - [README][inst-md]
-    - [Code][inst]
-    - [Documentation](.)
-
-
-
-[py-md]: ./python/README.md
-[js-md]: ./javascript/README.md
-[ts-md]: ./typescript/README.md
-[inst-md]: ./instrumenter/README.md
-[py]: ./python/
-[js]: ./javascript/
-[ts]: ./typescript/
-[inst]: ./instrumenter/
+* [Ponicode Unit Test Extension](ut_extension/)
+  * [What is Ponicode Unit Test Extension?](ut_extension/what-is-ponicode-unit-test-extension.md)
+  * [Installation](ut_extension/installation.md)
+  * [Get Started](ut_extension/get-started.md)
+  * [How To?](ut_extension/how-to.md)
+  * [Run Ponicode on Your Project](ut_extension/run-ponicode-on-your-project.md)
+  * [Advanced Usage](ut_extension/advanced_usage/)
+    * [Test Location](ut_extension/advanced_usage/test-location.md)
+    * [Test Description](ut_extension/advanced_usage/test-description.md)
+    * [Test Cases Suggestions](ut_extension/advanced_usage/test-cases-suggestions.md)
+    * [Mocking](ut_extension/advanced_usage/mocking.md)
+    * [Class Methods Testing](ut_extension/advanced_usage/class-methods-testing.md)
+    * [Test Cases Running](ut_extension/advanced_usage/test-case-running.md)
+    * [History](ut_extension/advanced_usage/history.md)
+  * [What Do We Support?](ut_extension/what-do-we-support.md)
+* [Ponicode DogString Action](dogstring_action/)
+  * [What is Ponicode DogString Action?](dogstring_action/what-is-ponicode-dogstring-action.md)
+  * [Try Ponicode DogString](dogstring_action/try-ponicode-dogstring.md)
+  * [Use Ponicode DogString Action](dogstring_action/use-ponicode-dogstring-action.md)

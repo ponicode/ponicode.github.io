@@ -12,7 +12,7 @@ Alternatively, you can open the VS Code extension from within VS Code. Go to the
 
 If you are struggling with the previous options you can use the VS Code command line:
 
-1. Enter the shortcut `⌘cmd + P` in VS Code.
+1. Enter the shortcut <kbd> cmd </kbd> + <kbd> P </kbd> in VS Code.
 2. Enter the following command: `ext install ponicode`.
 3. Press `Enter`.
 
@@ -26,7 +26,7 @@ Once the extension is installed, a Ponicode message is displayed in a popup at t
 ![Ponicode OTP Popup](images/otp-popup.png)
 
 > **<span style="color:green">NOTE<span>**
-> 
+> touches de clavier en anglais
 > If you can not find the pop-up or it has disappeared, you can also find the code at the left side of the status bar:
 > ![Ponicode OTP Footer](images/otp-footer.png)
 

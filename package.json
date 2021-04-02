@@ -1,0 +1,13 @@
+{
+  "name": "githubio",
+  "version": "1.0.4",
+  "description": "Ponicode user documentation",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "custompublish": "./scripts/publish.sh"
+  },
+  "author": "Aljosha Armitano <aljosha@ponicode.com>"
+}
