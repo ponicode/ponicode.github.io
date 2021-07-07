@@ -88,7 +88,7 @@ Ponicode can also mock functions from **Node** built-in modules (`fs`, `util`, e
 const axios = require('axios')
 function foo () {
     axios.get()
-}    
+}
 module.exports = { foo }
 ```
 
@@ -106,7 +106,7 @@ function foo () {
 const { get } = require('axios')
 function foo () {
     get()
-}    
+}
 module.exports = { foo }
 ```
 The reference to `axios.get` was copied before the mock was set up.
@@ -148,3 +148,5 @@ Ponicode can mock global variables that are defined in the same file as the test
 #### Criterias
 - The variable must be defined in global scope.
 - If you want to stub the variable, the variable must not be a constant.
+
+[![Mocking with Ponicode](https://img.youtube.com/vi/fB14LNRZRIQ/0.jpg)](https://www.youtube.com/watch?v=fB14LNRZRIQ)

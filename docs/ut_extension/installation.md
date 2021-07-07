@@ -1,4 +1,5 @@
 # Installation
+
 ## First time users - Create your Ponicode Account
 
 If this is your first time using/installing Ponicode, we highly recommend going through the [**Ponicode wizard**][wizard]. Login with your Github or Gitlab account and follow the steps to install and set up Ponicode.
@@ -17,7 +18,7 @@ If you are struggling with the previous options you can use the VS Code command 
 3. Press `Enter`.
 
 > **<span style="color:green">NOTE<span>**
-> 
+>
 > Visual Studio Code (version 1.37.1) or above is required to install the Ponicode extension.
 
 ## Link your extension to your account
@@ -33,7 +34,7 @@ Once the extension is installed, a Ponicode message is displayed in a popup at t
 Click on the `Copy to clipboard and open registration page` button to be redirected to the [**Ponicode Wizard**][wizard]
 
 > **<span style="color:green">NOTE<span>**
-> 
+>
 > You might be invited by your VS Code instance to open the external website
 > ![Ponicode OTP Footer](images/external-link.png)
 
@@ -49,6 +50,9 @@ Now click on `Link new extension`, paste your One Time Password and clienk on th
 To confirm the link was successfull you should see `Ponicode: 🚀 Ready` on your VS Code footer bar.
 
 ![Ponicode Wizard: Extensions section](images/ponicode-ready.png)
+
+
+[![How to install Ponicode](https://img.youtube.com/vi/ojUDOalrvIc/0.jpg)](https://www.youtube.com/watch?v=ojUDOalrvIc)
 
 
 

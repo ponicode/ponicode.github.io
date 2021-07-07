@@ -16,6 +16,7 @@
     - [Class Methods Testing](ut_extension/advanced_usage/class-methods-testing.md)
     - [Test Cases Running](ut_extension/advanced_usage/test-case-running.md)
   - [What Do We Support?](ut_extension/what-do-we-support.md)
+  - [Video tutorials](ut_extension/videos.md)
 - [Ponicode DogString Action](dogstring_action/)
   - [What is Ponicode DogString Action?](dogstring_action/what-is-ponicode-dogstring-action.md)
   - [Try Ponicode DogString](dogstring_action/try-ponicode-dogstring.md)
